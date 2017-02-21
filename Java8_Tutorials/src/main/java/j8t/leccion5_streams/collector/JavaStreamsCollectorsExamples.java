@@ -141,7 +141,6 @@ public class JavaStreamsCollectorsExamples {
 		// Importante volver a crear el stream porque cuando se se ha procesado un vez se cierra automaticamente
 		st = Stream.of(l1, l2, l3);
 		List<Libro> list = st.collect(Collectors.toList());
-		int i = 1;
 		for (Libro libro:list) {
 			System.out.println(libro.getTitulo());
 		}
