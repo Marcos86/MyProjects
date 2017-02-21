@@ -1,4 +1,4 @@
-package j8t.streams.filterandcollect;
+package j8t.leccion1_streams.filterandcollect;
 
 /**
  * The Class StreamsFilterAndCollect.

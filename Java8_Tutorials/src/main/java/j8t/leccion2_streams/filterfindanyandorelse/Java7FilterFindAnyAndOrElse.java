@@ -1,4 +1,4 @@
-package j8t.streams.filterfindanyandorelse;
+package j8t.leccion2_streams.filterfindanyandorelse;
 
 import java.util.Arrays;
 import java.util.List;
