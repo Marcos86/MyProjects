@@ -127,7 +127,7 @@ public class JavaStreamsCollectorsExamples {
 	 * @param l3 the l 3
 	 */
 	private static void convertirAListUnStream(Libro l1, Libro l2, Libro l3) {
-		comenzarEjemplo("recorrerArrayCreadoDesdeSteam");
+		comenzarEjemplo("convertirAListUnStream");
 		
 		// Creamos un stream con los 3 libros y los pintamos
 		System.out.println("Recorriendo stream...");
