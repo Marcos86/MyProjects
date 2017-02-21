@@ -4,6 +4,7 @@ package j8t.streams.filterfindanyandorelse;
  * The Class StreamsFilterAndCollect.
  * Link ejemplo: https://www.mkyong.com/java8/java-8-streams-filter-examples/
  */
+
 public class FilterFindAnyAndOrElseJava7vsJava8 {
 	
 	/**
