@@ -10,6 +10,8 @@ import org.springframework.context.annotation.Bean;
 
 /**
  * The Class Application.
+ * Links ejemplo: https://spring.io/guides/gs/accessing-data-mongodb/
+ * 				  http://www.mkyong.com/tutorials/java-mongodb-tutorials/
  */
 @SpringBootApplication
 public class Application implements CommandLineRunner{
