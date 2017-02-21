@@ -1,4 +1,4 @@
-package jt8.streams.filtermap;
+package j8t.leccion3_streams.filtermap;
 
 import java.util.HashMap;
 import java.util.Map;
