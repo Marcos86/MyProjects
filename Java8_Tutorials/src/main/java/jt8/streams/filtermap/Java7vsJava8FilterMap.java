@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
  * The Class JavavsJava8FilterMap.
  * Link ejemplo: https://www.mkyong.com/java8/java-8-filter-a-map-examples/
  */
+
 public class Java7vsJava8FilterMap {
 	
 	/**
