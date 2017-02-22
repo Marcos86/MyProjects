@@ -1,4 +1,4 @@
-package j8t_leccion8.predicates;
+package j8t.leccion8.predicates;
 
 /**
  * The Class Persona.
