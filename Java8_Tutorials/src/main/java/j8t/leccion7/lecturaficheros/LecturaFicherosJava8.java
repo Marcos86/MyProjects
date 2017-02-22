@@ -61,7 +61,6 @@ public class LecturaFicherosJava8 extends LecturaFicheros{
 
 			list = stream
 					.filter(line -> !line.startsWith(LINEA_DEFECTO))
-					.map(String::toUpperCase)
 					.collect(Collectors.toList());
 
 		} catch (IOException e) {
