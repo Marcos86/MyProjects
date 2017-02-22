@@ -1,4 +1,4 @@
-package j8t.leccion7.lecturaficheros;
+package j8t.leccion7_lecturaficheros;
 
 import java.io.File;
 

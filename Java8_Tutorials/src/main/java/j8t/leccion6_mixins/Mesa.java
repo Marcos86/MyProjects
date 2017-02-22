@@ -1,4 +1,4 @@
-package j8t.leccion6.mixins;
+package j8t.leccion6_mixins;
 
 /**
  * The Class Mesa.
