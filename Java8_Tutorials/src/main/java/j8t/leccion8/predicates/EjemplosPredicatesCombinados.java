@@ -8,7 +8,7 @@ import java.util.function.Predicate;
  * The Class PredicatesExample.
  * Link ejemplo:http://www.arquitecturajava.com/java-predicate-interface-y-sus-metodos/
  */
-public class PredicatesExample {
+public class EjemplosPredicatesCombinados extends EjemplosPredicates{
 
 	/**
 	 * The main method.
@@ -28,9 +28,10 @@ public class PredicatesExample {
 		lista.add(p3);
 		lista.add(p4);
 
-		mostrarLista(lista);
-		ejemploPredicados1(lista);
-		ejemploPredicados2(lista);
+		EjemplosPredicatesCombinados preCombinados = new EjemplosPredicatesCombinados();
+		preCombinados.mostrarLista(lista);
+		preCombinados.ejemploPredicados1(lista);
+		preCombinados.ejemploPredicados2(lista);
 
 	}
 
@@ -40,7 +41,7 @@ public class PredicatesExample {
 	 *
 	 * @param lista the lista
 	 */
-	private static void ejemploPredicados1(List<Persona> lista) {
+	private void ejemploPredicados1(List<Persona> lista) {
 		Predicate<Persona> predicado1 = p->p.getEdad()>18;
 		Predicate<Persona> predicado2 = p->p.getEdad()<30;
 		// El predicado3 devuelve como resultado pepe perez (20 años)
@@ -64,7 +65,7 @@ public class PredicatesExample {
 	 *
 	 * @param lista the lista
 	 */
-	private static void ejemploPredicados2(List<Persona> lista) {
+	private void ejemploPredicados2(List<Persona> lista) {
 		// Que el nombre tenga 4 letras o menos y que tenga mas de 25 años -> ana perez (30 años) y gema sanchez (40 años)
 		Predicate<Persona> predicado1 = p->p.getNombre().length()<=4;
 		Predicate<Persona> predicado2 = p->p.getEdad()>25;
@@ -86,35 +87,6 @@ public class PredicatesExample {
 		mostrarResultadoAlAplicarPredicate(lista, "(LONGITUD (NOMBRE) <=4 && EDAD>25) OR (APELLIDO LIKE ez && EDAD<35)", predicado8);
 		
 
-	}
-	
-	/**
-	 * Mostrar lista.
-	 *
-	 * @param lista the lista
-	 */
-	private static void mostrarLista(List<Persona> lista) {
-		System.out.println("CONTENIDO LISTA");
-		lista.stream().forEach(p -> System.out.println(p));
-		System.out.println();
-		System.out.println("**********************************************************************");
-		System.out.println();
-		System.out.println();
-	}
-
-	/**
-	 * Mostrar resultado al aplicar predicate.
-	 *
-	 * @param lista the lista
-	 * @param titulo the titulo
-	 * @param predicado the predicado
-	 */
-	private static void mostrarResultadoAlAplicarPredicate(List<Persona> lista, String titulo, Predicate<Persona> predicado) {
-		System.out.println("--->>>RESULTADO PREDICATE -> [" + titulo + "] <<<---");	
-		lista.stream().filter(predicado).forEach(p->System.out.println(p));
-		System.out.println();
-		System.out.println("**********************************************************************");
-		System.out.println();
 	}
 
 }

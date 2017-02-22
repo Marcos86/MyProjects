@@ -3,6 +3,7 @@ package j8t.leccion8.predicates;
 /**
  * The Class Persona.
  * Link ejemplo:http://www.arquitecturajava.com/java-predicate-interface-y-sus-metodos/
+ * 				http://www.arquitecturajava.com/utilizando-java-8-predicate/
  */
 public class Persona {
 
