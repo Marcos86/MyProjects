@@ -56,7 +56,7 @@ public class RecorridoEstructuraPersonaViaje {
 	 * @param lista the lista
 	 */
 	private static void conJava7(List<Persona> lista) {
-		System.out.println("Recorriendo la lista con Java 7");
+		System.out.println("Mostrar listado de paises con Java 7");
 		for(Persona persona:lista) {
 			for (Viaje viaje: persona.getLista()) {
 				System.out.println(viaje.getPais());
@@ -74,7 +74,7 @@ public class RecorridoEstructuraPersonaViaje {
 	 * @param lista the lista
 	 */
 	private static void conJava8Map(List<Persona> lista) {
-		System.out.println("Recorriendo la lista con conJava8Map");
+		System.out.println("Mostrar nombres de personas con Java8 - Map");
 		lista.stream().
 		map(persona->persona.getNombre()).
 		forEach(new Consumer<String>() {
@@ -94,7 +94,7 @@ public class RecorridoEstructuraPersonaViaje {
 	 * @param lista the lista
 	 */
 	private static void conJava8FlatMap(List<Persona> lista) {
-		System.out.println("Recorriendo la lista con conJava8FlatMap");
+		System.out.println("Mostrar listado de paises con Java8 - Map && FlatMap");
 		lista.stream().
 		map(persona->persona.getLista()).
 		flatMap(viajes->viajes.stream()).
@@ -117,7 +117,7 @@ public class RecorridoEstructuraPersonaViaje {
 	 * @param lista the lista
 	 */
 	private static void conJava8FlatMapOptimizado(List<Persona> lista) {
-		System.out.println("Recorriendo la lista con conJava8FlatMap");
+		System.out.println("Mostrar listado de paises con Java8 Map && FlatMap Optimizado");
 		lista.stream().
 		map(persona -> persona.getLista()).
 		flatMap(viajes -> viajes.stream()).
