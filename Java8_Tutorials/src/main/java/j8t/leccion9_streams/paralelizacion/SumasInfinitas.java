@@ -1,4 +1,4 @@
-package j8t.leccion9_streams.sumas_infinitas;
+package j8t.leccion9_streams.paralelizacion;
 
 import java.util.stream.DoubleStream;
 
