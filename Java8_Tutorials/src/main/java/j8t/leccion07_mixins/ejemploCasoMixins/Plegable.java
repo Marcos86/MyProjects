@@ -1,4 +1,4 @@
-package j8t.leccion07_mixins;
+package j8t.leccion07_mixins.ejemploCasoMixins;
 
 /**
  * The Interface Plegable.
