@@ -1,4 +1,4 @@
-package j8t.leccion09_predicates;
+package j8t.leccion09_predicates.ejemplos;
 
 import java.util.List;
 import java.util.function.Predicate;

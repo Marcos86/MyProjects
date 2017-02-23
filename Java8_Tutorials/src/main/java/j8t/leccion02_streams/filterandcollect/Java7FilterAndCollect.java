@@ -1,4 +1,4 @@
-package j8t.leccion02_streams.filterandcollect;
+package j8t.leccion02_streams.filterAndCollect;
 
 import java.util.ArrayList;
 import java.util.Arrays;

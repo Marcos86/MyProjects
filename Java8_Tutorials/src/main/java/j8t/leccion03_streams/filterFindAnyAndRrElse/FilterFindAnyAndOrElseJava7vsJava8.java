@@ -1,4 +1,4 @@
-package j8t.leccion03_streams.filterfindanyandorelse;
+package j8t.leccion03_streams.filterFindAnyAndRrElse;
 
 /**
  * The Class StreamsFilterAndCollect.
