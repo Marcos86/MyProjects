@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * The Class EjemplosNovedadesEnCollectionsYListas.
+ * Link ejemplo: http://www.arquitecturajava.com/novedades-de-java-8-collections-y-listas/
  */
 public class EjemplosNovedadesEnCollectionsYListas {
 
